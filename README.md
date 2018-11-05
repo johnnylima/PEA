@@ -17,7 +17,7 @@ outro usuário também faça sua compra. Para evitar fraudes, o sistema deve per
 cada produto. Este tratamento deve ser feito quando o cliente finalizar a compra.
 
 ##### Portanto, o sistema deve possuir as seguintes funcionalidades:
-**1. Cadastrar produto (`acesso restrito com senha: 123`)
+1. Cadastrar produto (`acesso restrito com senha: 123`)
 2. Listar produtos
 3. Adicionar produto ao carrinho com sua quantidade
 4. Visualizar o carrinho
@@ -25,17 +25,19 @@ cada produto. Este tratamento deve ser feito quando o cliente finalizar a compra
 6. Finalizar a compra
 7. Consultar pedido (usando o número gerado)
 8. Listar compras realizadas (`acesso restrito com senha: 123`)
-9. Controlar estoque (opcional) (`acesso restrito com senha: 123`)**
+9. Controlar estoque (opcional) (`acesso restrito com senha: 123`)
+
 Além disso, a coleção utilizada deve ser implementada pelo aluno. O Aluno deve criar uma nova classe concreta, que
 represente uma coleção e que implemente uma das interfaces do Framework Collections.
+
 Para a implementação do sistema, utilizar as seguintes regras (implementar a funcionalidade sem suas respectivas regras
 implica na perda de 50% da sua pontuação):
-• Utilizar Interfaces e Herança
-• Utilizar coleções (nova coleção criada pelo aluno);
-• Utilizar exceções nos seguintes casos:
-o Ao cadastrar um produto já existente;
-o Ao finalizar a compra e houver um produto acima do limite máximo permitido (10);
-o Efetuar a compra de um produto que não tem em estoque (opcional)
+    - Utilizar Interfaces e Herança
+    - Utilizar coleções (nova coleção criada pelo aluno);
+    - Utilizar exceções nos seguintes casos:
+        - Ao cadastrar um produto já existente;
+        - Ao finalizar a compra e houver um produto acima do limite máximo permitido (10);
+        - Efetuar a compra de um produto que não tem em estoque (opcional)
 
 ## Autores
 - Johnny Lima

@@ -32,12 +32,12 @@ represente uma coleção e que implemente uma das interfaces do Framework Collec
 
 Para a implementação do sistema, utilizar as seguintes regras (implementar a funcionalidade sem suas respectivas regras
 implica na perda de 50% da sua pontuação):
-    - Utilizar Interfaces e Herança
-    - Utilizar coleções (nova coleção criada pelo aluno);
-    - Utilizar exceções nos seguintes casos:
-        - Ao cadastrar um produto já existente;
-        - Ao finalizar a compra e houver um produto acima do limite máximo permitido (10);
-        - Efetuar a compra de um produto que não tem em estoque (opcional)
+- Utilizar Interfaces e Herança
+- Utilizar coleções (nova coleção criada pelo aluno);
+- Utilizar exceções nos seguintes casos:
+  - Ao cadastrar um produto já existente;
+  - Ao finalizar a compra e houver um produto acima do limite máximo permitido (10);
+  - Efetuar a compra de um produto que não tem em estoque (opcional)
 
 ## Autores
 - Johnny Lima

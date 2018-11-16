@@ -20,7 +20,7 @@ public class main {
 		//	System.out.println(UsuarioBD.GetById(1).getLogin());
 		//}
 		
-		//Produto prod = new Produto("Eminem","disco azul",ECategoriaProduto.CD,10,50);
+		//Produto prod = new Produto("Eminem",ECategoriaProduto.CD,10,50);
 		//ProdutoBD prodbd = new ProdutoBD();
 		//prodbd.Inserir(prod);
 	

@@ -4,17 +4,17 @@ import Enum.ECategoriaProduto;
 
 public class Produto {
 	private String Nome;
-	private String Descricao;
 	private ECategoriaProduto Categoria;
 	private double Valor;
 	private Estoque Estoque;
+	private String Figura;
 	
-	public Produto(String Nome, String Descricao, ECategoriaProduto Categoria, double Valor, double QuantidadeDisponivel) {
+	public Produto(String Nome, ECategoriaProduto Categoria, double Valor, double QuantidadeDisponivel, String Figura) {
 		this.setNome(Nome);
-		this.setDescricao(Descricao);	
 		this.setCategoria(Categoria);
 		this.setValor(Valor);
-		this.setEstoque(new Estoque(QuantidadeDisponivel));
+		this.Figura = Figura;
+		this.Estoque = new Estoque(QuantidadeDisponivel);
 	}
 
 	public String getNome() {
@@ -23,14 +23,6 @@ public class Produto {
 
 	public void setNome(String nome) {
 		Nome = nome;
-	}
-
-	public String getDescricao() {
-		return Descricao;
-	}
-
-	public void setDescricao(String descricao) {
-		Descricao = descricao;
 	}
 
 	public ECategoriaProduto getCategoria() {
@@ -49,12 +41,7 @@ public class Produto {
 		Valor = valor;
 	}
 
-	public Estoque getEstoque() {
-		return Estoque;
+	public String getFigura() {
+		return Figura;
 	}
-
-	public void setEstoque(Estoque estoque) {
-		Estoque = estoque;
-	}
-	
 }

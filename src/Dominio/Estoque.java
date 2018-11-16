@@ -2,7 +2,6 @@ package Dominio;
 
 public class Estoque {
 	private double QuantidadeDisponivel;
-	private double QuantidadeVendido;
 	
 	public Estoque(double QuantidadeDisponivel) {
 		this.QuantidadeDisponivel = QuantidadeDisponivel;
@@ -11,13 +10,12 @@ public class Estoque {
 	public double getQuantidadeDisponivel() {
 		return QuantidadeDisponivel;
 	}
-	public void setQuantidadeDisponivel(double quantidadeDisponivel) {
-		QuantidadeDisponivel = quantidadeDisponivel;
+	
+	public void AdiconarEstoque(int quantidade) {
+		QuantidadeDisponivel =+ quantidade;
 	}
-	public double getQuantidadeVendido() {
-		return QuantidadeVendido;
-	}
-	public void setQuantidadeVendido(double quantidadeVendido) {
-		QuantidadeVendido = quantidadeVendido;
+	
+	public void RemoveEstoque(int quantidade) {
+		QuantidadeDisponivel =- quantidade;
 	}
 }

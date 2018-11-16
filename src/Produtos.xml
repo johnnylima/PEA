@@ -1,0 +1,22 @@
+<list>
+  <Produto>
+    <Nome>Eminem</Nome>
+    <Descricao>disco azul</Descricao>
+    <Categoria>CD</Categoria>
+    <Valor>10.0</Valor>
+    <Estoque>
+      <QuantidadeDisponivel>50.0</QuantidadeDisponivel>
+      <QuantidadeVendido>0.0</QuantidadeVendido>
+    </Estoque>
+  </Produto>
+  <Produto>
+    <Nome>Eminem</Nome>
+    <Descricao>disco azul</Descricao>
+    <Categoria>CD</Categoria>
+    <Valor>10.0</Valor>
+    <Estoque>
+      <QuantidadeDisponivel>50.0</QuantidadeDisponivel>
+      <QuantidadeVendido>0.0</QuantidadeVendido>
+    </Estoque>
+  </Produto>
+</list>
